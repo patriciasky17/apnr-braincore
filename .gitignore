@@ -3,3 +3,4 @@ data/
 .venv/
 .ipynb_checkpoints/
 yolov8n.pt
+yolov8n-obb.pt
