@@ -30,33 +30,24 @@ pip install -r requirements.txt
 ## Results
 Trained models can be found in the `runs` directory. You can evaluate the performance of the models by running the respective notebooks.
 
-### Object Detection (YOLOv8)
-- **Fitness**: 0.82
-- **Precision**: 0.99
-- **Recall**: 0.99
-- **mAP50**: 0.99
-- **mAP50-95**: 0.80
-- **Inference Speed**: 2.91 seconds per image
-- **Loss**: 0.0024
+## Results
 
-#### Test Set
-- **Accuracy**: 0.97
-- **Precision**: 1.00
-- **Recall**: 0.97
-- **F1-Score**: 0.98
+| Metric               | Object Detection (YOLOv8) | Oriented Bounding Box Detection (OBB) |
+|----------------------|---------------------------|---------------------------------------|
+| **Fitness**          | 0.82                      | 0.88                                  |
+| **Precision**        | 0.99                      | 0.99                                  |
+| **Recall**           | 0.99                      | 0.99                                  |
+| **mAP50**            | 0.99                      | 0.99                                  |
+| **mAP50-95**         | 0.80                      | 0.87                                  |
+| **Inference Speed**  | 2.91 seconds per image    | 3.82 milliseconds per image           |
+| **Loss**             | 0.0024                   | 0.0                                   |
 
-### Oriented Bounding Box Detection (OBB)
-- **Fitness**: 0.88
-- **Precision**: 0.99
-- **Recall**: 0.99
-- **mAP50**: 0.99
-- **mAP50-95**: 0.87
-- **Inference Speed**: 3.82 milliseconds per image
-- **Loss**: 0.0
+### Test Set
 
-#### Test Set
-- **Accuracy**: 0.94
-- **Precision**: 1.00
-- **Recall**: 0.94
-- **F1-Score**: 0.97
+| Metric               | Object Detection (YOLOv8) | Oriented Bounding Box Detection (OBB) |
+|----------------------|---------------------------|---------------------------------------|
+| **Accuracy**         | 0.97                      | 0.94                                  |
+| **Precision**        | 1.00                      | 1.00                                  |
+| **Recall**           | 0.97                      | 0.94                                  |
+| **F1-Score**         | 0.98                      | 0.97                                  |
 
